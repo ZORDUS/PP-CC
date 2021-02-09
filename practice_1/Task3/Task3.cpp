@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
-int main() {
+int main() 
+{   using namespace std;
     setlocale(LC_ALL, "rus");
     int x, b, c;
     cout << "Enter b:";
@@ -8,6 +8,6 @@ int main() {
     cout << "Enter c:";
     cin >> c;
     x = (-c) / b;
-    cout << "x равняется:" << " " << x << endl;
+    cout << "x Г°Г ГўГ­ГїГҐГІГ±Гї:" << " " << x << endl;
     return 0;
 }
