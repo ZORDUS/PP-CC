@@ -3,7 +3,7 @@ int main() {
 
 	setlocale(LC_ALL, "rus");
 	using namespace std;
-	int name;
+	char name;
 
 	cout << "Enter name" << endl;
 	cin >> name;
