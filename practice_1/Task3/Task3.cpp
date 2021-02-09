@@ -2,7 +2,7 @@
 int main() 
 {   using namespace std;
     setlocale(LC_ALL, "rus");
-    int x, b, c;
+    float x, b, c;
     cout << "Enter b:";
     cin >> b;
     cout << "Enter c:";
