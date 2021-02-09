@@ -5,7 +5,8 @@ int main() {
 	using namespace std;
 	int name;
 
-	cout << "¬ведите ваше им€" << endl;
+	cout << "Enter name" << endl;
 	cin >> name;
+	cout << "Hello: " <<endl;
 	return 0;
 }
