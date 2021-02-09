@@ -1,26 +1,26 @@
 #include <iostream>
 #include <math.h>
-using namespace std;
-
-int main() {
+int main() 
+{
+	using namespace std;
 	setlocale(LC_ALL, "rus");
 	double w, x, a;
-	cout << "äëÿ âû÷èñëåíèÿ çíà÷åíèÿ 'w' ââåäåèòå ïåðåìåííûå";
-	cout << "Ââåäèòå 'x':";
+	cout << "Ð´Ð»Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ 'w' Ð²Ð²ÐµÐ´ÐµÐ¸Ñ‚Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ðµ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 'x':";
 	cin >> x;
-	cout << "Ââåäèòå 'a':";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 'a':";
 	cin >> a;
 	if (x < 1)
 	{
 		w = a * log(abs(x));
-		cout << "Çíà÷åíèÿ 'w':" << w;
+		cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ 'w':" << w;
 	}
 	else if (a - x * x >= 0)
 	{
 		w = sqrt(a - x * x);
-		cout << "Çíà÷åíèÿ 'w':" << w;
+		cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ 'w':" << w;
 	}
 	else
-		cout << "Èäè âîðóé";
+		cout << "ÐÐ°Ñ€ÑƒÑˆÐµÐ½Ð¸Ðµ Ð»Ð¾Ð³Ð¸ÐºÐ¸";
 	return 0;
 }
