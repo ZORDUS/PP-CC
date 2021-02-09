@@ -8,6 +8,6 @@ int main()
     cout << "Enter c:";
     cin >> c;
     x = (-c) / b;
-    cout << "x ðàâíÿåòñÿ:" << " " << x << endl;
+    cout << "x равен: " << " " << x << endl;
     return 0;
 }
