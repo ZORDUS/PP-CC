@@ -19,11 +19,11 @@ int main()
     
     if (discr < 0)
         cout << "discr is negative";
+    else
+        x1 = (-b + sqrt(discr)) / (2 * a);
+        x2 = (-b - sqrt(discr)) / (2 * a);
     
-    x1 = (-b + sqrt(discr)) / (2 * a);
-    x2 = (-b - sqrt(discr)) / (2 * a);
-    
-    cout << "x1 Первый корень равен: " << " " << x1 << endl;
-    cout << "x2 Второй корень равен:" << " " << x2 << endl;
+        cout << "x1 Первый корень равен: " << " " << x1 << endl;
+        cout << "x2 Второй корень равен:" << " " << x2 << endl;
     return 0;
 }
