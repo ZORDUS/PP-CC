@@ -7,6 +7,6 @@ int main() {
 
 	cout << "Enter name" << endl;
 	cin >> name;
-	cout << "Hello: " <<endl;
+	cout << "Hello: " << name <<endl;
 	return 0;
 }
