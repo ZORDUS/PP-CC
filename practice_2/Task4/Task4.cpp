@@ -1,6 +1,7 @@
 #include <iostream>
-using namespace std;
-int main() {
+int main()
+{
+    using namespace std;
     setlocale(LC_ALL, "rus");
     
     int a, b, c;
