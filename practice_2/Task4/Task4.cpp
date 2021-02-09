@@ -22,7 +22,7 @@ int main() {
     x1 = (-b + sqrt(discr)) / (2 * a);
     x2 = (-b - sqrt(discr)) / (2 * a);
     
-    cout << "x1 ðàâíÿåòñÿ:" << " " << x1 << endl;
-    cout << "x2 ðàâíÿåòñÿ:" << " " << x2 << endl;
+    cout << "x1 Первый корень равен: " << " " << x1 << endl;
+    cout << "x2 Второй корень равен:" << " " << x2 << endl;
     return 0;
 }
