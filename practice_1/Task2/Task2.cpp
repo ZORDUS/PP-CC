@@ -13,5 +13,6 @@ int main()
         << "Proizvedenie: " << a * b << endl;
     if (b == 0)
         cout << "Division by zero!";
-    else cout << "Chastnoe: " << a / b << endl;
+    else
+        cout << "Chastnoe: " << a / b << endl;
 }
