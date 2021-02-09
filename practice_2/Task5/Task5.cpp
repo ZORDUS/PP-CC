@@ -1,5 +1,4 @@
 #include <iostream>
-#define_USE_MATH_DEFINES
 #include <math.h>
 int main() {
 	using namespace std;
@@ -21,7 +20,7 @@ int main() {
 	cout << "Введите значение длины образующей(l): ";
 	cin >> l;
 	
-	S = M_PI * (R + r) * l + M_PI * R * R + M_PI * r * r;
+	S = 3.14 * (R + r) * l + 3.14 * R * R + 3.14 * r * r;
 	if (S >= 0) cout << "Значение площади(S): " << V; 
 		else cout << "Логическая ошибка";
 	
