@@ -4,7 +4,7 @@ int main()
 	using namespace std;
 	setlocale(LC_ALL, "RUS");
 	int a, b, f, x;
-	cout << "Введите цифры a, b è f: " << endl;
+	cout << "Введите цифры a, b , f: " << endl;
 	cout << "a= ";
 	cin >> a;
 	cout << "b= ";
