@@ -16,7 +16,7 @@ int main()
 	cout << "Enter 'x': ";
 	cin >> x;
 
-	if (b - y > 0 && b - x >= 0)
+	if ((b - y) > 0 && (b - x) >= 0)
 	{
 		z = log(b - y) * sqrt(b - x);
 		cout << "The value 'z' = " << z;
