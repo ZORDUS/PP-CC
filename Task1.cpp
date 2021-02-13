@@ -1,12 +1,13 @@
 #include <iostream>
-int main() {
 
-	setlocale(LC_ALL, "rus");
+int main()
+{
 	using namespace std;
-	string name;
 
-	cout << "Enter name" << endl;
+	string name;
+	cout << "Enter your name: ";
 	cin >> name;
-	cout << "Hello: " << name <<endl;
+	cout << "Hello, " << name << "!" << endl;
+
 	return 0;
 }
