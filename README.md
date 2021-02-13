@@ -1,2 +1,1 @@
-# practice_1
-Всем привет, сегодня я начну работу на github
+Procedure programming using C++
